@@ -3,6 +3,7 @@ import { useState } from 'react';
 function Posts() {
   return (
     <div>
+      <a href="./posts.js">Posts page</a>
       <h2>Posts</h2>
       <Contador />
     </div>
