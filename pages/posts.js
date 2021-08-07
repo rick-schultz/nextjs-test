@@ -1,9 +1,12 @@
 import { useState } from 'react';
+import Link from 'next/link';
 
 function Posts() {
   return (
     <div>
-      <a href="./index">Home page</a>
+      <Link href="/">
+        <a>Home page</a>
+      </Link>
       <h2>Posts</h2>
       <Contador />
     </div>
